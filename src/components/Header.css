@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255,255,255,0.2);
+  border-left: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+
+  height: 8vh;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.wallet-form {
+  padding: 0 2rem;
+}
+
+.wallet-form > form {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wallet-form > form > label > input, select {
+  width: 10rem;
+}

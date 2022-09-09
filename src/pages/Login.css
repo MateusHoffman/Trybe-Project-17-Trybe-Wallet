@@ -1,0 +1,109 @@
+* {
+  text-decoration: none;
+}
+
+.page-login {
+  height: 100vh;
+  width: 100vw;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background: linear-gradient(-45deg, #e6886c, #e4729e, #66b8d6, #6ad8be);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.form-login {
+  /* border: 1px solid red; */
+  width: 25rem;
+  height: 35rem;
+  border-radius: 20px;
+  padding: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 1rem;
+
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255,255,255,0.2);
+  border-left: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+
+.form-login > h1{
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.field-login {
+  width: 100%;
+  height: 3rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: none;
+
+  background: rgba(255, 255, 255, 0.582);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255,255,255,0.2);
+  border-left: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+
+.field-login::placeholder {
+  color: #403847;
+  font-size: 1rem;
+}
+
+.field-login:focus {
+  /* background-color: red; */
+  /* font-size: 1rem; */
+  border: none;
+}
+
+.btn-login {
+  background: linear-gradient(90deg, #251e49 30%, #4c1d5b);
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+};
+
+.btn-login:hover {
+  background: linear-gradient(90deg, #251e49 30%, #4c1d5b);
+  color: white;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+.btn-login:disabled {
+  opacity: 0.5;
+}

@@ -1,0 +1,86 @@
+.section-table {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255,255,255,0.2);
+  border-left: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+
+  width: 80vw;
+  height: 60vh;
+  padding: 2rem;
+  border-radius: 20px;
+
+  color: rgb(179, 179, 179);
+  text-align: center;
+}
+
+.scroll {
+  overflow: auto;
+  height: 50vh;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.scroll::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background: #b3b3b3;
+  border: 0px none #ffffff;
+  border-radius: 100px;
+}
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+}
+.scroll::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+.scroll::-webkit-scrollbar-track {
+  background: #3b3b3b;
+  border: 0px none #ffffff;
+  border-radius: 100px;
+}
+.scroll::-webkit-scrollbar-track:hover {
+  background: #3b3b3b;
+}
+.scroll::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+.scroll::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.table td {
+  border: none;
+}
+
+.table th {
+  border: none;
+  font-weight: 900;
+}
+
+.btn-edit-trash {
+  display: flex;
+}
+
+.btn-edit-trash > button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding: 0.5rem;
+}
+
+.btn-edit-trash > button > img {
+  height: 1.5rem;
+}
+
+.align-middle {
+  border: none;
+}
