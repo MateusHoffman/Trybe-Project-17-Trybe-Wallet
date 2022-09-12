@@ -5,6 +5,12 @@ Project responsible for presenting my skills with React, JavaScript, React Route
 ## Access the project:
 ### https://trybe-project-17-trybe-wallet.vercel.app/
 
+#### Login
+
+Email: teste@teste.com
+
+Senha: 123456789
+
 ## NOTA - 100%
 
 <div align="center" margin="50px">
