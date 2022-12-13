@@ -82,16 +82,6 @@ a, a:hover, a:focus, a:active {
   text-decoration: none;
 };
 
-.btn-login:hover {
-  background: linear-gradient(90deg, #251e49 30%, #4c1d5b);
-  color: white;
-  font-size: 1.6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-}
-
 .btn-login:hover:not(:disabled) {
   transform: scale(1.04);
 }
