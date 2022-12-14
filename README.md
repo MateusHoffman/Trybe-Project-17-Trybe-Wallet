@@ -1,6 +1,6 @@
 # 💚💚 Trybe-Project-17-Trybe-Wallet 💚💚
 
-Project responsible for presenting my skills with React, JavaScript, React Router, Redux, React Testing Library, Jest, HTML and CSS
+Project responsible for presenting my skills with React, JavaScript, React Router, Redux, React Testing Library, Jest, HTML and CSS 
 
 ## Access the project:
 ### https://trybe-project-17-trybe-wallet.vercel.app/
